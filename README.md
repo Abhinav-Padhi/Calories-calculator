@@ -4,14 +4,12 @@ This project utilizes a YOLOv8-Seg instance segmentation model fine-tuned on the
  Getting Started on Kaggle
 Follow these steps to deploy and run the entire pipeline in your own interactive environment.
 
-1. Create a Notebook & Import the Dataset
-Log into your account at Kaggle.
+Open the ipynb file on kaggle.
 
-Go to the dataset page for FoodSeg103 (or the specific upload you are using).
+Upload the Foodseg103 dataset 
 
-Click the "New Notebook" button in the upper-right corner of the dataset interface. This spins up a notebook with the data pre-loaded into the read-only directory: /kaggle/input/.
 
-2. Configure Accelerator Settings
+Configure Accelerator Settings
 Before running any machine learning operations, ensure you have GPU support enabled:
 
 In the right sidebar panel of your Kaggle notebook, look under the "Settings" dropdown.
